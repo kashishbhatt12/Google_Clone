@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+.container{
+    text-align: center;
+}
+
+.logo span{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.blue { color: #4285F4; }
+.red { color: #EA433F; }
+.yellow { color: #FBBC05; }
+.green { color: #34A853; }
+
+.search-box{
+    margin-top: 30px;
+}
+
+#searchInput{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+#voiceBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#voiceBtn:hover{
+    background-color: #3367d6;
+}
